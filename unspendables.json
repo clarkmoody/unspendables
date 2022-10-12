@@ -1,0 +1,11 @@
+{
+    "scripts": [
+        {
+            "script_pubkey": "76a90088ac",
+            "asm": "OP_DUP OP_HASH160 OP_0 OP_EQUALVERIFY OP_CHECKSIG",
+            "explanation": "Script fails to push pubkey hash bytes and instead inserts OP_0",
+            "certainty": "provable",
+            "category": "non-standard"
+        }
+    ]
+}
